@@ -1,0 +1,892 @@
+body{
+    width: 100%;
+}
+#navbar{
+    position: fixed;
+    top: 0;
+}
+.row{
+    --bs-gutter-x:0;
+}
+#first{
+    background-color:rgba(203, 235, 235, 0.137);
+    width: 100%;
+    display: block;
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-position: 100% 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.c{
+    color: black;
+}
+.tble a i{
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+#aftertoggle{
+    display: none;
+    background-color: rgba(18, 18, 126, 0.281);
+    /* height: 771px; */
+    padding-left: 0%;
+}
+.navcol{
+    margin-top: 20%;
+    
+}
+.menu{
+    background-color: white;
+    height: 100%;
+    width: 65%;
+    position: fixed;
+    z-index: 1;
+
+}
+.topbar{
+    padding-right: 0%;
+    margin-right: 0%;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    /* padding-top: 1%; */
+
+}
+.blocknav{
+    display: block;
+   
+}
+.blocknav a{
+width: 50px;   
+}
+
+.under{
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content:first baseline; */
+    /* align-items:flex-start; */
+}
+.navv{
+   
+    padding-left: 10px;
+    color: black;
+}
+.topmenu{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.dos{
+    -webkit-border-radius: 25px;
+    border-radius: 25px; 
+}
+.prot{
+    -webkit-border-radius: 25px;
+    border-radius: 25px; 
+    width: 200px;
+}
+/* .tb{
+    width: 500px ;
+    height: 70px;
+    margin-top: 10%;
+} */
+.data{
+    margin-top: 10%;
+    margin-left: -2%;
+}
+.ts{
+    font-size: small;
+    font-weight:bolder;
+    color: rgb(158, 162, 223);
+}
+.num{
+    margin-top: 3%;
+    margin-left: -3%;
+    font-size: x-large;
+    font-weight:bolder;
+    color: rgb(48, 36, 97);
+}
+.last{
+    font-size: small;
+    color: rgb(184, 187, 230);
+    text-align: left;
+    padding-left: 5%;
+}
+.dosfont{
+    padding-top: 5%;
+}
+.trans{
+    background-color: transparent;
+    margin-left: 2%;
+    width: 200px;
+}
+.toggle{
+    padding-top: 1%;
+    display: none;
+}
+
+.notoggle{
+    padding-top: 8%;
+    padding-left: 86%;
+    position: fixed;
+    z-index: 1;
+}
+.second{
+    height: 707px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    margin-top: 21%;
+    margin-left: 2%;
+    margin-right: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.tbl{
+    width: 65%;
+    margin-left: 20%;
+}
+.bg{
+    font-size:320%;
+    font: bolder; 
+    padding: 0;
+    color: rgb(50, 46, 82);
+}
+.org{
+    color: rgb(230, 23, 23);
+}
+.secrow2{
+    background-image: url(http://frontend.projects-amit-learning.com/images/header-a.png);
+    background-position: 33% 37%;
+    background-size: 107%;
+    background-repeat: no-repeat;
+    padding: 0;
+    height: 100%;
+}
+.abtc{
+    background-color: #fff;
+    height: 600px;
+    padding-left: 4%;
+}
+.tble{
+    margin-left: 25%;
+    padding-left: 5%;
+    border: 1px solid rgb(197, 194, 194);
+    border-collapse: collapse;
+    height: 85%;
+    width: 71%;
+}
+.brdr{
+    padding-left: 2%;
+    border-bottom: 1px solid rgb(197, 194, 194);
+}
+a{
+    text-decoration: none;
+}
+.third{
+    padding-top: 10%;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 100px 0;
+    background-color: #f7f9fe;
+}
+.picall{
+    display: flex;
+    flex-flow: column wrap;
+    height: 450px;
+    width: 300px;
+    background-color: white;
+}
+.outpic{
+    padding: 0%;
+    /* margin-left: %; */
+}
+.pic1{
+    width: 100%;
+    height: 55%;
+    background-image: url(http://frontend.projects-amit-learning.com/images/spread-a.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-bottom: 6px solid #9cc2f7;
+   
+}
+.pic2{
+    width: 100%;
+    height: 55%;
+    background-image: url(http://frontend.projects-amit-learning.com/images/spread-b.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-bottom: 6px solid #9cc2f7;
+   
+}
+.pic3{
+    width: 100%;
+    height: 55%;
+    background-image: url(http://frontend.projects-amit-learning.com/images/spread-c.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-bottom: 6px solid #9cc2f7;
+   
+}
+.ques{
+    margin-top: 10%;
+}
+.butspr{
+    padding-left: 3%;
+    padding-right: 3%; 
+}
+.secpicall{
+    
+    display: flex;
+    flex-flow: row wrap;
+   
+}
+.secpic1{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: -120%;
+    left: 80%;
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.secpic2{
+    background-image: url(http://frontend.projects-amit-learning.com/images/symptom-b.png);
+    background-repeat: no-repeat;
+    margin-left: 69%;
+    margin-top: -70%;
+    height: 40%;
+    width: 23%;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.secpic3{
+    background-image: url(http://frontend.projects-amit-learning.com/images/symptom-c.png);
+    background-repeat: no-repeat;
+    margin-left: 69%;
+    margin-top: -70%;
+    height: 40%;
+    width: 23%;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.down{
+    padding-top: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white;
+    background-position: 0% 70%;
+    margin-top: -10%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+
+}
+.siso{
+    padding-top: 10%; background-color: #fff; margin-left: 0%;margin-right: 0%;padding-left: 0%;padding-right: 0%;
+}
+.sis{
+    height: 200px;
+    /* width: 350px;padding: 0%; margin-left: 3%; */
+}
+.prev{
+    padding: 100px 0 100px 0;
+    margin: 0%; background-color: #f7f9fe;
+    
+}
+
+.picparaflex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+.prevhead{
+    text-align: center;
+    padding-top: 5%;
+}
+.box{
+    /* height: 270px; */
+    width: 270px;
+}
+.thirdpic1{
+    background-image: url(http://frontend.projects-amit-learning.com/images/advice-a.png);
+    background-repeat: no-repeat;
+    margin-left: 32%;
+    height: 40%;
+    width: 30%;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.thirdpic2{
+    background-image: url(http://frontend.projects-amit-learning.com/images/advice-b.png);
+    background-repeat: no-repeat;
+    margin-left: 32%;
+    height: 40%;
+    width: 30%;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.thirdpic3{
+    background-image: url(http://frontend.projects-amit-learning.com/images/advice-c.png);
+    background-repeat: no-repeat;
+    margin-left: 32%;
+    height: 40%;
+    width: 30%;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.thirdpic4{
+    background-image: url(http://frontend.projects-amit-learning.com/images/advice-d.png);
+    background-repeat: no-repeat;
+    margin-left: 32%;
+    height: 40%;
+    width: 30%;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.washhand{
+    padding-left: 21%;
+}
+.washhandbutton{
+    width: 280px;
+    height: 40px;
+    padding-bottom: 0%;
+}
+.QA{
+    color:#2a81ea;font-weight: bold;padding-top: 1%;
+}
+
+.insidebox{
+    width: 90%;
+    /* height:600px; */
+    background-color: white;
+    margin-top: 10%;
+   
+}
+ul{
+    text-decoration: none;
+}
+.chkcir{
+    color: green;
+    margin-right: 1%;
+}
+.prtct{
+    background-image: url(http://frontend.projects-amit-learning.com/images/steps.png);
+    background-repeat: no-repeat;
+    background-size: 80% 88%;
+    /* padding-left: 5%; */
+    background-position: 50% 30%;
+}
+
+.fourthpic1{
+    background-image: url(http://frontend.projects-amit-learning.com/images/hand-a.png);
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 125px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.fourthpic2{
+    background-image: url(http://frontend.projects-amit-learning.com/images/hand-b.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 123px;
+    height: 125px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.fourthpic3{
+    background-image: url(http://frontend.projects-amit-learning.com/images/hand-c.png);
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 125px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.fourthpic4{
+    background-image: url(http://frontend.projects-amit-learning.com/images/hand-d.png);
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 125px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.fourthpic5{
+    background-image: url(http://frontend.projects-amit-learning.com/images/hand-e.png);
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 125px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.fourthpic6{
+    background-image: url(http://frontend.projects-amit-learning.com/images/hand-f.png);
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 125px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.treatment{
+    padding: 10% 0% 0% 0% ;
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-color: #2766bb;
+    background-repeat: no-repeat;
+}
+.careful{
+    color: #73e3ff;
+    font-size: 25px;
+   font-weight: bold;
+}
+.treat{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.selfcare{
+    padding: 70px 0 70px 20px ;
+    margin-left: 5%;
+    margin-bottom: 100px;
+    width: 100%;
+    background-color: #1b47a1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.donts{
+  padding-top: 10%;
+    background-color: #f7f9fe;
+
+}
+.threeportions{
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-bottom: 10%;
+    margin-left: 3%;
+}
+.writingportion{
+    padding-top: 20%;
+}
+.writingportions{
+    padding-top: 15%;
+    padding-left: 10%;
+}
+.y_n{
+    position: relative;
+    left: 10%;
+    right: 20%;
+    top: -87%;
+    height: 16px;
+    width: 16px;
+}
+.icoon{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+}
+.fifthpic1{
+    background-image: url(http://frontend.projects-amit-learning.com/images/donts-a.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #2a81ea;
+}
+.fifthpic2{
+    background-image: url(http://frontend.projects-amit-learning.com/images/donts-b.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #2a81ea;
+}
+.fifthpic3{
+    background-image: url(http://frontend.projects-amit-learning.com/images/donts-c.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #2a81ea;
+}
+.middlepic{
+    background-image: url(http://frontend.projects-amit-learning.com/images/protect.png);
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+.fifthpic4{
+    background-image: url(http://frontend.projects-amit-learning.com/images/dos-a.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #2a81ea;
+}
+.fifthpic5{
+    background-image: url(http://frontend.projects-amit-learning.com/images/dos-b.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #2a81ea;
+}
+.fifthpic6{
+    background-image: url(http://frontend.projects-amit-learning.com/images/dos-c.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #2a81ea;
+}
+.icooon{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+}
+.n_y{
+    position: relative;
+    left: 10%;
+    right: 20%;
+    top: -87%;
+    height: 16px;
+    width: 16px;
+}
+.latestupdate{
+    /* height: 100%; */
+    padding-bottom: 100px;
+
+    background-color: #f7f9fe;
+}
+
+.upd{
+    width: 355px;
+    height: 400px;
+    background-color: white;
+    /* margin-right: 3%; */
+    border-radius: 3%;
+   
+}
+.sixthpic1{
+    margin: 5%;
+    background-image: url(http://frontend.projects-amit-learning.com/images/blog-a.jpg);
+    border-radius: 3%;
+    width: 310px;
+    height: 190px;
+    background-size: 100% 100%;
+}
+.sixthpic2{
+    margin: 5%;
+    background-image: url(http://frontend.projects-amit-learning.com/images/blog-b.jpg);
+    border-radius: 3%;
+    width: 310px;
+    height: 190px;
+    background-size: 100% 100%;
+}
+.sixthpic3{
+    margin: 5%;
+    background-image: url(http://frontend.projects-amit-learning.com/images/blog-c.jpg);
+    border-radius: 3%;
+    width: 310px;
+    height: 190px;
+    background-size: 100% 100%;
+}
+.frequentlyasked{
+padding-top: 10%;    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+.outertable{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.firsttable{
+    width: 100%;
+    height: 380px;
+}
+.words{
+    /* position: relative;
+    left: 5%; */
+    color: #6b7594;
+}
+.icns{
+    position: relative;
+  right: -14%;
+   color: #50658e;
+}
+.tbleright{
+    width: 100%;background-color: #f7fafe;
+}
+#plusfirst{
+    height: 210px;
+    width: 100%;
+    background-color: white;
+}
+#Up{
+    display: none;
+    position: fixed;
+    padding: 2px;
+    right: 2.5%;
+    bottom: 3.5%;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #2b56f5;
+    color: white;
+    border-radius: 50%;
+}
+#Up .svg-inline--fa{
+    vertical-align: -0.125em;
+    font-size: 10px;
+    
+}
+#footer{
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-color: #151c2e;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+}
+
+.threeicons{
+    background-color: #50658e;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     padding-top: 10%;
+}
+.final{
+    padding: 100px 150px 100px 50px;
+}   
+.final p{
+    color: #b2bfe0;
+}   
+
+@media only screen and (max-width: 940px) {
+   
+    
+    .tble{
+        padding-left: 1%;
+        width: 90%;
+        margin-left: 0%;
+    }
+ 
+.second{
+    width: 90%;
+    padding-left: 5%;
+}   
+
+.minh{
+    height: 55%;
+}
+    .topbar {
+     /* height: 10; */
+     margin: 0%;
+    }
+    .blocknav{
+   display: none;
+    }
+    .toggle{
+        display: block;
+    }
+    .title{
+        margin-top: 21%;
+        margin-left: 1%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .tbl{
+        width: 40%;
+        margin-left: 10%;
+    }
+    .data{
+        margin-left: -20%;
+    }
+    .bg{
+        font-size:200%;
+        font: bolder;
+        padding: 0;
+        color: rgb(50, 46, 82);
+    }
+    .secrow2{
+       background-position: 50% 15%;
+    }
+   
+    .picall{
+        /* width: 280px; */
+        height: 550px;
+        margin-top: 10%;
+        /* margin-left: 13%; */
+    }
+    .ques{
+       margin-left: 1%;
+    }
+    .butspr{
+        width: 290px;
+    }
+    .sis{
+        margin-top: 30%;
+        /* margin-left: 20%; */
+        width: 80%;
+        height: 300px;
+       align-content: center;
+
+    }
+  
+    .secpic2{
+        margin-left: 60%;
+    margin-top: -175%;
+    height: 25%;
+    width: 35%;
+    }
+    .secpic3{
+        margin-left: 60%;
+    margin-top: -175%;
+    height: 25%;
+    width: 35%;
+    }
+    
+    .prevhead{
+        padding-top: 25%;
+    }
+    .box{
+        padding-bottom: 80px;
+    }
+    .washhand{
+        padding-left: 10%;
+        /* padding-top: 20%; */
+    }
+   
+    .insidebox{
+        width: 85%;
+        /* height: 1255px; */
+        margin-top: 10%;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+    .prtct{
+        height: 500px;
+    }
+  
+    .selfcare{
+        height: 640px;
+        width: 275px;
+    }
+    .donts{
+        /* height: 2200px; */
+        padding-top: 5%;
+    }
+    .writingportion{
+        padding-top: 7%;
+    }
+    .writingportions{
+        padding-top: 7%;
+    }
+    
+    
+    
+  }
